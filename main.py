@@ -6,12 +6,9 @@ testScore = int(testScoreString)
 classRank = int(classRankString)
 
 #decision structure
-#if testScore >= 90 then ("then" is not used in python, keeps asking for ":"")
 if testScore >= 90:
   if classRank >= 25:
-     #output "Accept" ("output" is not used in python, and instead uses "print")
       print("Accept")
-  #endif (not used in python, because it uses "elif" and "else")
   else:
       print("Reject")
 elif testScore >= 80:
@@ -26,6 +23,7 @@ elif testScore >= 70:
       print("Reject")
 else:
   print("Reject")
+  
   #I seriously hope thats not a legitimate accept or reject formula...because even if I am number 1 in the class, and I score an 99, I am still rejected.
 
 
